@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+string name,last_name;
+cout<<"plese enter your name:";
+cin>>name>>last-name;
+cout<<"your name is:"<<name<<"  "<<last_name<<endl;
+    return 0;
+}
