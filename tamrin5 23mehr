@@ -2,12 +2,15 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
 int age;
  cout<<"plese enter your age:";
-cin>>age;
-cout<<"your age is:"<<age<<endl;
+//cin>>age;
+if(cin>>age)
+{
+cout<<"your age is:"<<age<<endl;}
+else{
+    cout<<"\n your enter wrong number!";
+}
     return 0;
 }
-
