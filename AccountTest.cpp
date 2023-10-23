@@ -4,9 +4,9 @@
 using namespace std;
 int main()
 {
-    Accound myAccount;
+    Account myAccount("naser"),myAccount2("Ahmad");
     cout<<"Initlal name of myAccount"<<myAccount.getName()<<endl;
-    cout<<"please enter the Name of Account:"<<endl;
+    cout<<"Initlal name of myAccount2:"<<myAccount.getName()<<endl;
     string newName;
     cin>>newName;
     myAccount.setName(newName);
