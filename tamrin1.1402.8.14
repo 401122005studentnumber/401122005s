@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+class Account {
+   public :
+       Account (string cName ,int cAge, int cBalance =50){
+       name = cName;
+       age = cAge;
+       balance = cBalance;
+       }
+       string getName()
+       {
+           return name;
+       }
+       int getBalance()
+       {
+           return balance;
+       }
+   private :
+    string name;
+    int age;
+    int balance;
+    };
+
+int main()
+{
+    Account account1("Ali",24,1000),account2("Ehsan",20);
+    cout << "the balance of account" <<account1.getName()<<"is :"<<account1.getBalance()<< endl;
+    cout << "the balance of account" <<account2.getName()<<"is :"<<account2.getBalance()<< endl;
+}
